@@ -1,12 +1,300 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura</title>
+    <title>AURUM</title>
+    <link rel="icon" type="image/png" href="./img/aurum_logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    
+
+<body class="bg-white font-sans antialiased text-gray-800">
+    <header class="bg-[#0F0F0F] sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between gap-8">
+
+            <a href="#" class="flex-shrink-0">
+                <div
+                    class="text-3xl font-serif text-white tracking-widest hover:text-[#C59D5F] transition-colors duration-300">
+                    AURUM
+                </div>
+            </a>
+
+            <div class="flex-grow max-w-2xl hidden md:block">
+                <div class="relative">
+                    <input type="text" placeholder="O que você procura hoje?"
+                        class="w-full h-10 pl-4 pr-12 rounded-sm border-none focus:ring-2 focus:ring-[#C59D5F] text-sm text-gray-900 placeholder-gray-400">
+
+                    <button
+                        class="absolute right-0 top-0 h-10 w-12 bg-[#C59D5F] flex items-center justify-center hover:bg-white hover:text-[#C59D5F] transition-colors rounded-r-sm">
+                        <svg class="w-5 h-5 text-[#0F0F0F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-6 text-white">
+                <button class="hover:text-[#C59D5F] transition group flex flex-col items-center">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
+                </button>
+                <button class="hover:text-[#C59D5F] transition hidden sm:block">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                        </path>
+                    </svg>
+                </button>
+                <button class="hover:text-[#C59D5F] transition relative">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                    <span
+                        class="absolute -top-1 -right-1 w-4 h-4 bg-[#C59D5F] text-[10px] font-bold text-black rounded-full flex items-center justify-center">2</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="bg-[#1A1A1A] border-t border-white/10">
+            <div class="container mx-auto px-4">
+                <nav
+                    class="flex gap-8 text-xs uppercase tracking-widest text-gray-300 h-10 items-center overflow-x-auto scrollbar-hide">
+                    <a href="#" class="text-[#C59D5F] font-bold hover:text-white transition shrink-0">Novidades</a>
+                    <a href="#" class="hover:text-white transition shrink-0">Alfaiataria</a>
+                    <a href="#" class="hover:text-white transition shrink-0">Vestidos</a>
+                    <a href="#" class="hover:text-white transition shrink-0">Blazers</a>
+                    <a href="#" class="hover:text-white transition shrink-0">Sapatos</a>
+                    <a href="#" class="hover:text-white transition shrink-0">Acessórios</a>
+
+                    <a href="#"
+                        class="hover:text-white transition shrink-0 text-[#5D2E8C] font-bold ml-auto flex items-center gap-2">
+                        <span>✨ Aura Concierge</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="relative h-[85vh] w-full bg-[#0F0F0F] flex items-end pb-20 justify-center overflow-hidden group">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop"
+                class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition duration-[2000ms]">
+
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0F0F0F] via-transparent to-transparent opacity-90">
+            </div>
+
+            <div class="relative z-10 text-center px-4 animate-fade-in-up">
+                <p class="text-white text-xs md:text-sm font-medium tracking-[0.3em] uppercase mb-6">Campanha Winter
+                    2025</p>
+                <h1 class="font-serif text-5xl md:text-8xl text-white italic mb-8 leading-tight">
+                    Aurum <span class="text-[#C59D5F]">Essence</span>
+                </h1>
+                <div class="flex flex-col md:flex-row gap-6 justify-center">
+                    <button
+                        class="bg-white text-black min-w-[180px] py-4 text-xs font-bold uppercase tracking-widest hover:bg-[#C59D5F] hover:text-white transition duration-300">
+                        Ver Coleção
+                    </button>
+                    <button
+                        class="border border-white text-white min-w-[180px] py-4 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition duration-300">
+                        Editorial
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <section class="container mx-auto px-6 py-24">
+            <div class="flex justify-between items-end mb-12 border-b border-gray-100 pb-6">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-serif text-[#0F0F0F] mb-2">New Arrivals</h2>
+                    <p class="text-gray-500 text-xs uppercase tracking-widest">Curadoria da Semana</p>
+                </div>
+                <a href="#"
+                    class="text-xs font-bold uppercase tracking-widest border-b border-black pb-1 hover:text-[#C59D5F] hover:border-[#C59D5F] transition hidden md:block">
+                    Ver Todos
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
+
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden mb-6 aspect-[3/4]">
+                        <img src="https://amaro.com/cdn/shop/files/20250903_AMARO_2026_crop_2048x2048.jpg?v=1758559000"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                            alt="Trench Coat Viena">
+                        <div
+                            class="absolute bottom-0 w-full bg-white/90 backdrop-blur py-3 text-center translate-y-full group-hover:translate-y-0 transition duration-300">
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#0F0F0F]">Adicionar à
+                                Sacola</span>
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg text-[#0F0F0F] mb-1">Trench Coat Viena</h3>
+                    <p class="text-xs text-[#C59D5F] font-bold tracking-widest mb-2">NOVA COLEÇÃO</p>
+                    <p class="text-sm text-gray-900 font-medium">R$ 2.490,00</p>
+                    <p class="text-[10px] text-gray-400 mt-1">10x de R$ 249,00</p>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden mb-6 aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div
+                            class="absolute top-4 right-4 bg-[#0F0F0F] text-white text-[10px] font-bold px-2 py-1 uppercase tracking-widest">
+                            Sold Out</div>
+                    </div>
+                    <h3 class="font-serif text-lg text-[#0F0F0F] mb-1">Vestido Silk Night</h3>
+                    <p class="text-xs text-gray-400 font-bold tracking-widest mb-2">ALFAIATARIA</p>
+                    <p class="text-sm text-gray-900 font-medium">R$ 1.890,00</p>
+                    <div class="flex items-center gap-1 mt-2 cursor-pointer group/wait">
+                        <div class="w-2 h-2 rounded-full bg-[#5D2E8C] animate-pulse"></div>
+                        <span class="text-[10px] text-[#5D2E8C] font-bold uppercase group-hover/wait:underline">Avise-me
+                            (Via Aura)</span>
+                    </div>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden mb-6 aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000&auto=format&fit=crop"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div
+                            class="absolute bottom-0 w-full bg-white/90 backdrop-blur py-3 text-center translate-y-full group-hover:translate-y-0 transition duration-300">
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#0F0F0F]">Adicionar à
+                                Sacola</span>
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg text-[#0F0F0F] mb-1">Blazer Double Breasted</h3>
+                    <p class="text-xs text-gray-400 font-bold tracking-widest mb-2">CLÁSSICOS</p>
+                    <p class="text-sm text-gray-900 font-medium">R$ 1.290,00</p>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden mb-6 aspect-[3/4]">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1000&auto=format&fit=crop"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                            alt="Bolsa de Luxo">
+                        <div
+                            class="absolute bottom-0 w-full bg-white/90 backdrop-blur py-3 text-center translate-y-full group-hover:translate-y-0 transition duration-300">
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#0F0F0F]">Adicionar à
+                                Sacola</span>
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg text-[#0F0F0F] mb-1">Bolsa Aurum Mini</h3>
+                    <p class="text-xs text-gray-400 font-bold tracking-widest mb-2">ACESSÓRIOS</p>
+                    <p class="text-sm text-gray-900 font-medium">R$ 3.590,00</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="bg-[#F9F9F9] py-20 overflow-hidden">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-16">
+
+                    <div class="w-full md:w-1/2">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="w-8 h-[1px] bg-[#5D2E8C]"></span>
+                            <span class="text-[#5D2E8C] text-xs font-bold uppercase tracking-[0.2em]">Tecnologia
+                                Exclusiva</span>
+                        </div>
+                        <h2 class="text-4xl md:text-5xl font-serif italic text-[#0F0F0F] mb-6 leading-tight">
+                            Seu Concierge Pessoal, <br>
+                            <span class="not-italic font-bold">Disponível 24h.</span>
+                        </h2>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-8 max-w-md">
+                            Dúvidas sobre tamanhos, rastreio de pedidos ou segunda via de pagamento? A
+                            <strong>Aura</strong> resolve tudo instantaneamente, mantendo a excelência do nosso
+                            atendimento presencial no digital.
+                        </p>
+                        <button
+                            class="flex items-center gap-3 text-[#0F0F0F] font-bold text-xs uppercase tracking-widest hover:text-[#5D2E8C] transition">
+                            Iniciar Atendimento
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="w-full md:w-1/2 relative h-[400px] bg-[#0F0F0F] flex items-center justify-center group">
+                        <div
+                            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-40">
+                        </div>
+
+                        <div
+                            class="relative bg-white/10 backdrop-blur-md border border-white/20 p-6 w-64 transform rotate-3 group-hover:rotate-0 transition duration-500 shadow-2xl">
+                            <div class="flex items-center gap-3 mb-4 border-b border-white/10 pb-3">
+                                <div
+                                    class="w-8 h-8 bg-[#5D2E8C] rounded-full flex items-center justify-center text-white text-[10px]">
+                                    ✨</div>
+                                <div>
+                                    <div class="text-white text-xs font-bold">Aura</div>
+                                    <div class="text-white/60 text-[9px] uppercase tracking-wider">Online Agora</div>
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <div
+                                    class="bg-white/10 p-2 rounded-r-lg rounded-bl-lg text-white text-[10px] leading-relaxed">
+                                    Olá, Ana. Seu vestido <strong>Silk Night</strong> chega amanhã! Deseja o código de
+                                    rastreio?
+                                </div>
+                                <div
+                                    class="bg-[#C59D5F] p-2 rounded-l-lg rounded-br-lg text-[#0F0F0F] text-[10px] font-bold ml-auto w-fit">
+                                    Sim, por favor!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#0F0F0F] text-white py-12">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+            <div>
+                <h3 class="font-serif text-2xl mb-4">AURUM</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">
+                    AURUM é a marca de moda feminina de luxo que combina elegância atemporal com inovação moderna,
+                    oferecendo peças exclusivas para mulheres sofisticadas.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Sobre Nós</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Nossa História</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Sustentabilidade</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Carreiras</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Imprensa</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Atendimento</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Contato</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">FAQ</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Política de Trocas</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Rastreamento de Pedidos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Siga-nos</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Instagram</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Facebook</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">Pinterest</a></li>
+                    <li><a href="#" class="hover:text-[#C59D5F] transition">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
